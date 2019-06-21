@@ -40,7 +40,7 @@ void load_array(vector <A> &v)
         fin.read(t,tmp);
         s.str=t;
         v.push_back(s);
-	delete t[];
+	delete []t;
     }
     fin.close();
 }
